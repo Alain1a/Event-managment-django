@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: white;
+            width: 55%;
+            height: 8;
+            margin: auto;
+            margin-top: 4%;
+            display: block;
+            border-radius: 20px;
+            ;
+
+        }
+
+        .ward {
+            display: block;
+            margin-left: 2%;
+            margin-top: 5%;
+            
+
+
+        }
+    </style>
+</head>
+
+<body style="background-image: url('{% static '/photos/Reg.jpeg' %}'); background-size: cover; position: ; ">
+    <div class="main">
+        <center>
+            <h2>Register</h2>
+        </center>
+
+        <div class="ward">
+            <h3 style="margin-left: 40%;">Register Your Event</h3>
+            <div style="display: flex; justify-content: space-between;width: 800px;">
+                  
+                <input type="text" name="Email" placeholder="first name"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black; ">
+                 
+                <input type="text" name="Email" placeholder="first name"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+            </div>
+
+            <div style="display: flex; margin-top: 5%; justify-content: space-between;width: 800px;">
+                 
+                <input type="text" name="Email" placeholder="Gender"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+                 
+                <input type="text" name="Email" placeholder="Ex: myname@gmail.com"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+            </div>
+            <div style="display: flex; margin-top: 5%;  justify-content: space-between;width: 800px;">
+                
+                <input type="text" name="Event Name" placeholder="Enter Event Name"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+
+                
+                <input type="text" name="Event type" placeholder="Ex: Birthday"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+            </div>
+            <div style="display: flex; margin-top: 5%; justify-content: space-between;width: 800px;">
+
+              
+                <input type="text" name="date" placeholder="Enter date"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+
+                
+                <input type="text" name="Location" placeholder="Enter Location"
+                    style="width: 40%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;">
+            </div>
+
+            <a href="Login.html" style="margin-left: 3px;"><button
+                    style="width: 30%; height: 70px; border-radius: 10px; background-color: blue; color: white; margin-top: 5%; margin-left: 32%;">Submit</button></a>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

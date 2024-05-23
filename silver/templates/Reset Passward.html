@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: white;
+            width: 30%;
+            height: 500px;
+            margin: auto;
+            margin-top: 10%;
+            display: block;
+            border-radius: 20px;
+            ;
+
+        }
+
+        .ward {
+            display: block;
+            margin-left: 100px;
+            margin-top: 20%;
+            
+        }
+    </style>
+</head>
+
+<body style="background-image: url('{% static '/photos/celebration-3057027_640.jpg' %}'); background-size: cover; ">
+    <div class="main">
+        <center><h2>Reset Passward</h2></center>
+       
+        <div class="ward">
+            <h3>Reset your passward don't share publicly</h3>
+            <input type="text" name="Email" placeholder="User Name" style="width: 70%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;"><br><br>
+            <a href="Reset Passward.html"><input type="text" name="Reset" placeholder="Email adress" style="background-color: black; width: 70%; height: 70px; border-radius: 10px; background-color: rgb(199, 187, 187); color: black;"></a><br><br>
+            <button style="width: 70%; height: 70px; border-radius: 10px; background-color: blue; color: white;">Reset passward</button><br><br>
+            
+            <a href="Login.html" style="margin-left: 50px;"> Back to Login page</a>
+        </div>
+    </div>
+</body>
+
+</html>
